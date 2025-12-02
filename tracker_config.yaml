@@ -1,0 +1,9 @@
+tracker_type: bytetrack
+track_high_thresh: 0.55        # un poco más tolerante
+track_low_thresh: 0.05         # permite seguir objetos con baja confianza
+new_track_thresh: 0.7
+track_buffer: 300              # mantiene el ID por más frames si desaparece
+match_thresh: 0.8              # más flexible con el movimiento
+conf_thres: 0.25
+iou_thres: 0.45
+fuse_score: True

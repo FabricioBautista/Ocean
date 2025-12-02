@@ -1,0 +1,9 @@
+mysql-connector-python>=8.0.0
+PyYAML>=6.0
+ultralytics==8.2.103
+opencv-python
+torch
+torchvision
+torchaudio
+psycopg2-binary
+numpy
